@@ -40,19 +40,14 @@ create or replace table products (
 );
 ```
 
-## Part 1 — Design and Create an Order Facts table with the following parameters:
+## Part 1 — Design and create an order facts table
 
-Build a table named:
-
-```
-fact_order_lines
-```
 
 ### Requirements
 
-Please provide via a PR within github. Use `submission.sql` to a feature branch
-1. The DDL for the final table
-2. The DML to insert into the facts table
+1. The solution is provided via a pull request within github. Use the file name `submission.sql`
+2. Provide all DDL statement(s) needed to build the final table
+3. Provide all DML statements to insert into the facts table
 
 The table must:
 - Support incremental loading
