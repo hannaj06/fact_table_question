@@ -44,11 +44,13 @@ create or replace table products (
 
 Build a table named:
 
-**fact_order_lines**
+```
+fact_order_lines
+```
 
 ### Requirements
 
-Please provide:
+Please provide via a PR within github. Use `submission.sql` to a feature branch
 1. The DDL for the final table
 2. The DML to insert into the facts table
 
