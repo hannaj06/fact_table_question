@@ -48,6 +48,7 @@ create or replace table products (
 1. The solution is provided via a pull request within github. Use the file name `submission.sql`
 2. Provide all DDL statement(s) needed to build the final table
 3. Provide all DML statements to insert into the facts table
+4. Design must be idempotent
 
 The table must:
 - Support incremental loading
